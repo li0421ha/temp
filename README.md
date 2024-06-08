@@ -28,16 +28,20 @@
 ### 1.如何让让网站的账户和设备绑定，后续完成代码的管理，上传下载
 	git init  //创建本地仓库	*后续对仓库的操作，都要在仓库位置
 [![3.png](https://i.postimg.cc/Y0D19HCc/3.png)](https://postimg.cc/30pySzG9)
-	
-	git config --list  //查看git的配置文件
+
+	git config --list //查看git的配置文件
 [![4.png](https://i.postimg.cc/zDxwpnSd/4.png)](https://postimg.cc/Hj77k8N5)
+
 	git config --global user.email"邮箱"
 [![5.png](https://i.postimg.cc/wBkRMpwW/5.png)](https://postimg.cc/SXJx1wF8)
+
 	git config --global user.name"用户名"
 [![6.png](https://i.postimg.cc/1t5nNjTy/6.png)](https://postimg.cc/hJ6PkpcY)
+
 	ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文
 	*去对应的目录查看密文文件，rsa.pub 复制密文，粘贴 settings -> SSH key and GPG -> new ssh key -> 粘贴
 [![7.png](https://i.postimg.cc/rpgzc9p3/7.png)](https://postimg.cc/rd0qNxxN)
+
 	ssh -T git@github.com  //测试关联是否成功
 [![8.png](https://i.postimg.cc/jdXjyXH5/8.png)](https://postimg.cc/Whdjv0fL)
 ### 2.为目标仓库起别名，定位目标仓库，后续上传
