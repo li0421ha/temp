@@ -16,6 +16,15 @@
 ### 插入图片
 [![1.png](https://i.postimg.cc/yWC8n3DV/1.png)](https://postimg.cc/FkGvHRbq)
 
+### 仓库内容
+	Code,资源存储，代码资源，二进制，项目管理脚本，许可证等等
+	issues,使用时遇到的bug或进行提交，等待反馈
+	README，使用markdown语言编写，工程自述文件，开发进度，版本更新，使用介绍等等
+	LICENSE许可证，GDL 2.0,3.0 Apahce 2.0, Mit,这些许可证，给使用者最大使用权限以及最少的限制
+### Git软件，分布式版本控制系统
+	仓库管理软件，使用git管理私人代码或者企业代码
+[![2.png](https://i.postimg.cc/3J9XS2XS/2.png)](https://postimg.cc/56YQjYkL)
+
 Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 
 ## 标题修饰符\#
