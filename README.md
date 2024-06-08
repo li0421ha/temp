@@ -51,9 +51,12 @@
 	git rebase --skip "忽略本地内容 保留云端内容"
 	git rebase --abort "忽略本地内容 保留云端内容"
 	git rebase --continue "忽略本地内容 保留云端内容"
-
-
-Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
+[![10.png](https://i.postimg.cc/RZ5TnvT9/10.png)](https://postimg.cc/LnDPcK70)
+## 下载开源代码
+	git clone "https仓库地址"  //下载开源项目code资源
+## 分支Branch
+	*关于分支的相关命令，创建分支、选择分支、合并分支等等
+## Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 
 ## 标题修饰符\#
 
