@@ -14,7 +14,7 @@
 	在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支位master / main
 	不仅可以管理代码存储，便于多人协作开发
 ### 插入图片
-[![1.png](https://postimg.cc/FkGvHRbq "悬停标题")
+[![1.png](https://i.postimg.cc/yWC8n3DV/1.png)](https://postimg.cc/FkGvHRbq)
 
 Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 
