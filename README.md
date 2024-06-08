@@ -24,6 +24,34 @@
 ### Git软件，分布式版本控制系统
 	仓库管理软件，使用git管理私人代码或者企业代码
 [![2.png](https://i.postimg.cc/3J9XS2XS/2.png)](https://postimg.cc/56YQjYkL)
+## 设备认证
+### 1.如何让让网站的账户和设备绑定，后续完成代码的管理，上传下载
+	git init  //创建本地仓库	*后续对仓库的操作，都要在仓库位置
+[![3.png](https://i.postimg.cc/Y0D19HCc/3.png)](https://postimg.cc/30pySzG9)
+	git config --list  //查看git的配置文件
+[![4.png](https://i.postimg.cc/zDxwpnSd/4.png)](https://postimg.cc/Hj77k8N5)
+	git config --global user.email"邮箱"
+[![5.png](https://i.postimg.cc/wBkRMpwW/5.png)](https://postimg.cc/SXJx1wF8)
+	git config --global user.name"用户名"
+[![6.png](https://i.postimg.cc/1t5nNjTy/6.png)](https://postimg.cc/hJ6PkpcY)
+	ssh-keygen -t rsa -C "注册邮箱"  //创建本地密文
+	*去对应的目录查看密文文件，rsa.pub 复制密文，粘贴 settings -> SSH key and GPG -> new ssh key -> 粘贴
+[![7.png](https://i.postimg.cc/rpgzc9p3/7.png)](https://postimg.cc/rd0qNxxN)
+	ssh -T git@github.com  //测试关联是否成功
+[![8.png](https://i.postimg.cc/jdXjyXH5/8.png)](https://postimg.cc/Whdjv0fL)
+### 2.为目标仓库起别名，定位目标仓库，后续上传
+	git remote add origin "ssh地址"  //为ssh仓库地址创建别名为origin
+	git remote remove origin  //删除origin别名
+## 本地设备与云端仓库的交互逻辑
+[![9.png](https://i.postimg.cc/Y9qRq8zW/9.png)](https://postimg.cc/Y4ZYd6Vr)
+## 代码更新的依赖关系被破坏
+	本地内容要比云端新，完成更新替换，但是如果直接修改云端内容，导致本地内容无法再次提交
+	*先拉取git pull 云端内容 与本地内容合并或操作，而后再次推即可
+	git pull --rebase origin master
+	git rebase --skip "忽略本地内容 保留云端内容"
+	git rebase --abort "忽略本地内容 保留云端内容"
+	git rebase --continue "忽略本地内容 保留云端内容"
+
 
 Markdown,文本修饰语言，用特殊符号修饰正文效果<br>
 
