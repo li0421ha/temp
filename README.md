@@ -28,6 +28,7 @@
 ### 1.如何让让网站的账户和设备绑定，后续完成代码的管理，上传下载
 	git init  //创建本地仓库	*后续对仓库的操作，都要在仓库位置
 [![3.png](https://i.postimg.cc/Y0D19HCc/3.png)](https://postimg.cc/30pySzG9)
+	
 	git config --list  //查看git的配置文件
 [![4.png](https://i.postimg.cc/zDxwpnSd/4.png)](https://postimg.cc/Hj77k8N5)
 	git config --global user.email"邮箱"
