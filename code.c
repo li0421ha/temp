@@ -2,7 +2,6 @@
 
 int main(void){
 	
-	printf("删库跑路\n");
-	printf("跑的挺快\n");
+	printf("test codeing\n");
 	return 0;
 }
